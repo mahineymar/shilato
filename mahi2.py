@@ -1,5 +1,5 @@
 string=input().split()
 l=[]
-for x in str:
-    l.append(x[::-1])
+for i  in str:
+    l.append(i[::-1])
 print(*l)
